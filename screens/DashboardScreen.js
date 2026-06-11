@@ -171,7 +171,7 @@ export default function DashboardScreen({ navigation }) {
         <View style={styles.searchBox}>
           <Text style={styles.searchIcon}>⌕</Text>
           <TextInput
-            placeholder="Search by title, category or status..."
+            placeholder="Search by title, category or status...."
             placeholderTextColor="#94A3B8"
             value={search}
             onChangeText={setSearch}
