@@ -1,10 +1,10 @@
-Smart Student Planner
+Task Planner
 
 Overview
 
 
 
-Smart Student Planner is a mobile application developed using React Native and Expo. The application helps students manage their academic activities by organising tasks, assignments, deadlines, and priorities in a simple and user-friendly interface.
+Task Planner is a mobile application developed using React Native and Expo. The application helps students manage their academic, work and personal activities by organising tasks, assignments, deadlines, and priorities in a simple and user-friendly interface.
 
 
 
@@ -46,7 +46,7 @@ Mark Task as Complete
 
 Mark Task as Incomplete (Undo)
 
-Assign Priority Levels (High, Medium, Low)
+SelectTask Status (Not started, In Progress, Completed)
 
 Settings
 
@@ -100,7 +100,7 @@ Android Emulator / Expo Go
 
 Project Structure
 
-SmartStudentPlanner
+TaskPlanner
 
 │
 
@@ -108,25 +108,25 @@ SmartStudentPlanner
 
 │
 
-├── screens
-
-│   ├── RegisterScreen.js
-
-│   ├── LoginScreen.js
-
-│   ├── DashboardScreen.js
-
-│   ├── AddTaskScreen.js
-
-│   ├── EditTaskScreen.js
-
-│   └── SettingsScreen.js
-
-│
-
 ├── components
 
 │   └── TaskItem.js
+
+|
+
+├── screens
+
+│   ├── AddTaskScreen.js
+
+│   ├── DashboardScreen.js
+
+│   ├── EditTaskScreen.js
+
+│   ├── LoginScreen.js
+
+│   ├── RegisterScreen.js
+
+│   └── SettingsScreen.js
 
 │
 
@@ -162,11 +162,11 @@ Android Studio (optional)
 
 Step 1: Clone Repository
 
-git clone https://github.com/yourusername/smart-student-planner.git
+git clone https://github.com/yourname/Task-Planner.git
 
 Step 2: Navigate to Project Folder
 
-cd smart-student-planner
+cd Task-Planner
 
 Step 3: Install Dependencies
 
@@ -208,7 +208,7 @@ Design Considerations
 
 
 
-The application uses a green colour theme to create a clean and professional academic appearance. The interface was designed with simplicity, accessibility, and usability in mind to ensure students can manage their academic workload efficiently.
+The application uses a blue colour theme to create a clean and professional academic appearance. The interface was designed with simplicity, accessibility, and usability in mind to ensure students can manage their academic workload efficiently.
 
 
 
@@ -233,6 +233,8 @@ Task Categories
 Due Date Reminders
 
 Student Profile Editing
+
+Profile Image Uploading
 
 Data Backup and Synchronisation
 

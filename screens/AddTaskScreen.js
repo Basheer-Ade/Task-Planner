@@ -109,7 +109,7 @@ export default function AddTaskScreen({ navigation }) {
       <Text style={styles.label}>Description</Text>
       <TextInput
         style={[styles.input, styles.descriptionBox]}
-        placeholder="Add task details..."
+        placeholder="Add task details...."
         placeholderTextColor="#94A3B8"
         value={description}
         onChangeText={setDescription}
